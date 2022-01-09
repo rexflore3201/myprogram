@@ -3,8 +3,8 @@
 ?>
     <section class="index-intro">
     <?php
-        if(isset($_SESSION["useruid"])){
-            echo "<p>Hello there ". $_SESSION["useruid"]." you're now login. To continue please click the Profile Page. </p>";
+        if(isset($_SESSION["username"])){
+            echo "<p>Hello there ". $_SESSION["username"]." you're now login. To continue please click the Profile Page. </p>";
         }
     ?><br><br>
     <!--Showcase-->
